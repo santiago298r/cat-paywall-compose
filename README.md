@@ -53,7 +53,7 @@ Cat Paywall Compose is built using the [RevenueCat SDK for Android](https://www.
 
 In the sidebar, open the **Products** dropdown and select either **In-app products** or **Subscriptions**, depending on the type of in-app product you're creating. For more details, you can follow the [Google Play Product Setup](https://www.revenuecat.com/docs/getting-started/entitlements/android-products?utm_medium=organic&utm_source=github&utm_campaign=advocate) instructions.
 
-1. [Set up your RevenueCat account](https://app.revenuecat.com/signup) for managing the products, monetization, statistics, and more. All you need is an email address.
+1. [Set up your RevenueCat account](https://app.revenuecat.com/signup?utm_medium=organic&utm_source=github&utm_campaign=advocate) for managing the products, monetization, statistics, and more. All you need is an email address.
 
 2. After creating your account on RevenueCat, configure a set of Google Play Store service credentials by following the instructions provided in the [Google Play Store service credentials guide](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials?utm_medium=organic&utm_source=github&utm_campaign=advocate). In order for RevenueCat's servers to communicate with Google on your behalf, you should complete the steps below:
    1. [Enable the Google Developer and Reporting API](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#1-enable-the-google-developer-and-reporting-api?utm_medium=organic&utm_source=github&utm_campaign=advocate)
