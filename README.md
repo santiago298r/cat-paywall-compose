@@ -1,6 +1,6 @@
-# Cat Paywall Compose
+<h1 align="center">Cat Paywall Compose</h1></br>
 
-Cat Paywall Compose shows you how to build a paywall for Google Play's billing system using [RevenueCat's Android SDK](https://www.revenuecat.com/docs/getting-started/quickstart) and Jetpack Compose.
+🐈 Cat Paywall Compose shows you how to build a paywall for Google Play's billing system using [RevenueCat's Android SDK](https://www.revenuecat.com/docs/getting-started/quickstart) and Jetpack Compose.
 
 The purpose of this repository is to demonstrate the following:
 
