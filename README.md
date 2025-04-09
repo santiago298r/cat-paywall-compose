@@ -24,18 +24,18 @@ The purpose of this repository is to demonstrate the following:
 <img src="preview/4.png" alt="drawing" width="269px" />
 </p>
 
-<a href="https://www.revenuecat.com/docs/getting-started/quickstart">
+<a href="https://www.revenuecat.com/docs/getting-started/quickstart?utm_medium=organic&utm_source=github&utm_campaign=advocate">
 <img src="https://github.com/user-attachments/assets/28d587ad-787a-4f67-9e33-2768a631c6e5" align="right" width="12%"/>
 </a>
 
 ## 🐈 RevenueCat In-App Purchase SDK
 
-Cat Paywall Compose is built using the [RevenueCat SDK for Android](https://www.revenuecat.com/docs/getting-started/installation/android) to implement in-app subscriptions and a paywall system on top of Google Play Billing. [RevenueCat](https://www.revenuecat.com/) handles first-party purchases, manages customer data, supports A/B testing, and provides source-of-truth analytics across multiple platforms.
+Cat Paywall Compose is built using the [RevenueCat SDK for Android](https://www.revenuecat.com/docs/getting-started/installation/android?utm_medium=organic&utm_source=github&utm_campaign=advocate) to implement in-app subscriptions and a paywall system on top of Google Play Billing. [RevenueCat](https://www.revenuecat.com?utm_medium=organic&utm_source=github&utm_campaign=advocate) handles first-party purchases, manages customer data, supports A/B testing, and provides source-of-truth analytics across multiple platforms.
 
 ## 🛠 Tech Stack & Open Source Libraries
 - Minimum SDK level 24.
 - 100% [Jetpack Compose](https://developer.android.com/jetpack/compose) based + [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) + [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/) for asynchronous.
-- [RevenueCat SDK for Android](https://www.revenuecat.com/docs/getting-started/installation/android): RevenueCat allows you to implement in-app subscriptions, dynamic paywalls, actionable analytics, and plug-and-play experimentation tools.
+- [RevenueCat SDK for Android](https://www.revenuecat.com/docs/getting-started/installation/android?utm_medium=organic&utm_source=github&utm_campaign=advocate): RevenueCat allows you to implement in-app subscriptions, dynamic paywalls, actionable analytics, and plug-and-play experimentation tools.
 - Jetpack
   - Compose: Modern Android toolkits for building native UI.
   - ViewModel: UI related data holder and lifecycle-aware.
@@ -51,15 +51,15 @@ Cat Paywall Compose is built using the [RevenueCat SDK for Android](https://www.
 
 ![Image](preview/guide1.png)
 
-In the sidebar, open the **Products** dropdown and select either **In-app products** or **Subscriptions**, depending on the type of in-app product you're creating. For more details, you can follow the [Google Play Product Setup](https://www.revenuecat.com/docs/getting-started/entitlements/android-products) instructions.
+In the sidebar, open the **Products** dropdown and select either **In-app products** or **Subscriptions**, depending on the type of in-app product you're creating. For more details, you can follow the [Google Play Product Setup](https://www.revenuecat.com/docs/getting-started/entitlements/android-products?utm_medium=organic&utm_source=github&utm_campaign=advocate) instructions.
 
 1. [Set up your RevenueCat account](https://app.revenuecat.com/signup) for managing the products, monetization, statistics, and more. All you need is an email address.
 
-2. After creating your account on RevenueCat, configure a set of Google Play Store service credentials by following the instructions provided in the [Google Play Store service credentials guide](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials). In order for RevenueCat's servers to communicate with Google on your behalf, you should complete the steps below:
-   1. [Enable the Google Developer and Reporting API](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#1-enable-the-google-developer-and-reporting-api)
-   2. [Create a Service Account](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#2-create-a-service-account)
-   3. [Grant Financial Access to RevenueCat](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#3-grant-financial-access-to-revenuecat)
-   4. [Enter the Credentials JSON in RevenueCat](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#4-enter-the-credentials-json-in-revenuecat)
+2. After creating your account on RevenueCat, configure a set of Google Play Store service credentials by following the instructions provided in the [Google Play Store service credentials guide](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials?utm_medium=organic&utm_source=github&utm_campaign=advocate). In order for RevenueCat's servers to communicate with Google on your behalf, you should complete the steps below:
+   1. [Enable the Google Developer and Reporting API](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#1-enable-the-google-developer-and-reporting-api?utm_medium=organic&utm_source=github&utm_campaign=advocate)
+   2. [Create a Service Account](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#2-create-a-service-account?utm_medium=organic&utm_source=github&utm_campaign=advocate)
+   3. [Grant Financial Access to RevenueCat](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#3-grant-financial-access-to-revenuecat?utm_medium=organic&utm_source=github&utm_campaign=advocate)
+   4. [Enter the Credentials JSON in RevenueCat](https://www.revenuecat.com/docs/service-credentials/creating-play-service-credentials#4-enter-the-credentials-json-in-revenuecat?utm_medium=organic&utm_source=github&utm_campaign=advocate)
 
 Once your project is connected to a store, RevenueCat can automatically import products from it.
 
@@ -71,11 +71,11 @@ After importing your products, you'll see that the in-app purchase items have be
 
 ![Image](preview/guide3.png)
 
-4. Next, you should create **[Offerings](https://www.revenuecat.com/docs/offerings/overview)**. Offerings represent the set of products that are presented to users on your paywall. You can create a new offering following the [Creating an Offering](https://www.revenuecat.com/docs/offerings/overview#creating-an-offering) guide. Once you've created a new offering, you'll see the result below:
+4. Next, you should create **[Offerings](https://www.revenuecat.com/docs/offerings/overview?utm_medium=organic&utm_source=github&utm_campaign=advocate)**. Offerings represent the set of products that are presented to users on your paywall. You can create a new offering following the [Creating an Offering](https://www.revenuecat.com/docs/offerings/overview#creating-an-offering?utm_medium=organic&utm_source=github&utm_campaign=advocate) guide. Once you've created a new offering, you'll see the result below:
 
 ![Image](preview/guide4.png)
 
-5. Now you can create [Paywalls](https://www.revenuecat.com/docs/tools/paywalls) within the RevenueCat dashboard. To do this, go to the **Paywalls** tab in your project settings on the RevenueCat dashboard, click the **+ New** button, then you'll see the template screen like the image below:
+5. Now you can create [Paywalls](https://www.revenuecat.com/docs/tools/paywalls?utm_medium=organic&utm_source=github&utm_campaign=advocate) within the RevenueCat dashboard. To do this, go to the **Paywalls** tab in your project settings on the RevenueCat dashboard, click the **+ New** button, then you'll see the template screen like the image below:
 
 ![Image](preview/guide5.png)
 
