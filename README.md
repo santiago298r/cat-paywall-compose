@@ -99,6 +99,8 @@ You can copy-paste the line below:
 REVENUECAT_API_KEY=<YOUR_API_KEY>
 ```
 
+Also, make sure to update the [application ID](https://github.com/RevenueCat/cat-paywall-compose/blob/main/app/build.gradle.kts#L32) to match the one registered for your project on Google Play.
+
 Now, build and run the project. You should see the paywall dialog appear in the details screen if you've followed the steps correctly.
 
 > **Note:** Ensure your device is signed into Google Play, especially if you're running the project on an emulator.
@@ -118,7 +120,7 @@ UI layer = UI elements + ViewModels (UI State).
 The pattern in which state flows downward and events flow upward is known as **unidirectional data flow (UDF)**. This architecture promotes a clear separation of concerns and predictable UI behavior through the following structure:
 
 - The **ViewModel** serves as the source of truth for the UI state, transforming application data into a format suitable for rendering.
-- **UI** elements observes this state and render the content accordingly.
+- **UI** elements observe this state and render the content accordingly.
 - When a user interacts with the UI elements, events are sent upward to the ViewModel.
 - The **ViewModel** processes these events, updates the state as needed, and the new state is emitted back to the UI.
 - This cycle repeats for every event that results in a state change.
